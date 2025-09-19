@@ -1,0 +1,54 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FDEDEF;
+    color: #5D3A1A;
+}
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: #A0522D;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: #F7C6C7;
+    color: #5D3A1A;
+    font-weight: bold;
+}
+.nav-pills .nav-link {
+    color: #5D3A1A;
+}
+
+.list-group-item {
+    background-color: #FFF0F0;
+    border-color: #A0522D;
+}
+
+.spinner-border {
+    margin: 20px auto;
+    display: block;
+}
+
+.toast {
+    background-color: #F7C6C7;
+    color: #5D3A1A;
+    font-weight: bold;
+}
+
+.tab-content {
+    flex-grow: 1;
+}
+
+.conteudo {
+    padding: 15px;
+}
